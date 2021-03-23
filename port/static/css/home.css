@@ -1,0 +1,31 @@
+body {
+    font-family: 'Averia Serif Libre', cursive;
+}
+
+nav {
+    display: inline-block;
+    text-align: center;;
+    background-color: turquoise;
+    display: block;
+}
+
+h2 {
+    display: inline-block;
+    margin-left: 1.5em;
+}
+
+#greetings {
+    text-align: center;
+}
+
+#name {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited{
+    color: black;
+}
