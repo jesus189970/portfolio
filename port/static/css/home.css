@@ -1,21 +1,25 @@
 body {
     font-family: 'Averia Serif Libre', cursive;
+    
 }
 
 nav {
     display: inline-block;
     text-align: center;;
-    background-color: turquoise;
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(62,29,93,1) 100%);
     display: block;
+    width: 100%;
 }
 
-h2 {
+.nav-links {
     display: inline-block;
-    margin-left: 1.5em;
+    margin-left: 1.7em;
 }
 
 #greetings {
     text-align: center;
+    font-size: 3em;
 }
 
 #name {
@@ -28,4 +32,55 @@ a {
 
 a:visited{
     color: black;
+}
+
+#about-sec {
+    background-color: yellow;
+    text-align: center;
+    margin-top: 25em;
+}
+
+#about {
+    width: 20em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 2.5em;
+    
+}
+
+.ab-me {
+    font-size: 1.2em;
+    text-align: left;
+    padding-left: 1em;
+}
+
+#about-h2 {
+    font-size: 2em;
+}
+
+#snp {
+    text-align: center;
+    
+    
+}
+
+.sec-h2 {
+    font-size: 2.5em;
+
+}
+
+
+
+#images {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    width: 6%
+}
+
+#projs {
+    display: flex;
 }

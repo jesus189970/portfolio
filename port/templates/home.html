@@ -1,28 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jesus C | Web Development</title>
     {% load static %}
-    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@300&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="{% static 'css/home.css' %}">
+    <link rel="stylesheet" href="{% static 'css/home.css' %}">
 </head>
+
 <body>
     <header>
         <nav>
-            <h2>Home</h2>
-            <h2><a href="#about">About</a></h2>
-            <h2>Projects</h2>
-            <h2>Resume</h2>
+            <h2 class="nav-links">Home</h2>
+            <h2 class="nav-links"><a href="#about">About</a></h2>
+            <h2 class="nav-links">Projects</h2>
+            <h2 class="nav-links">Resume</h2>
         </nav>
     </header>
     <h1 id="name">Jesus Cruz Web Developer</h1>
     <div id="greetings">
-        <p>Hello there!! Im a web developer that strives to provide great code and beautiful looking websites! Always looking to improve to give the best of the best.</p>
+        <p>Hello there!! Im a web developer that strives to provide great code and beautiful looking websites! Always
+            looking to improve to give the best of the best.</p>
     </div>
+
+    <div id="about-sec">
+        <h2 class="sec-h2">About Me</h2>
+        <div id="about">
+
+            <p class="ab-me">Born and raised in the city of Allentown, into a Christ believing and sports loving family.
+                I've always tried to do my best in wahtever I was doing...even if that was playing video games. Now
+                married
+                and looking to start a family, I will strive harder to reach milestones to better myself more.</p>
+        </div>
+    </div>
+
+    <div id="snp">
+        <h2 class="sec-h2">Skills & Projects</h2>
+        <div id="images">
+            <img class="logo" src="{% static 'port/images/html.png' %}">
+            <img class="logo" src="{% static 'port/images/css.png' %}">
+            <img class="logo" src="{% static 'port/images/javascript.png' %}">
+            <img class="logo" src="{% static 'port/images/python.png' %}">
+            <img class="logo" src="{% static 'port/images/django.png' %}">
+        </div>
+        <div id="projs">
+            <img src="" alt="">
+            <ul>
+                <li><img src="" alt=""></li>
+                <li><img src="" alt=""></li>
+                <li><img src="" alt=""></li>
+                <li><img src="" alt=""></li>
+            </ul>
+            <h2>Simple Image Slider</h2>
+        </div>
+    </div>
+
+
 </body>
+
 </html>
